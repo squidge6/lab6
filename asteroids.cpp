@@ -749,7 +749,8 @@ void render()
 	
 	extern void displayName(int, int, const char*);
 	displayName(100, gl.yres - 50, "marcelF");
-	
+	extern void drawBox(int, int);
+	drawBox(gl.xres/2,gl.yres/2);
 	//
 	//-------------
 	//Draw the ship
